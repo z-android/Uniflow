@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tv_blue"
+    >
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/selection"
+        />
+
+    <TextView
+        android:id="@+id/tv_tip"
+        style="@style/tv_normal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="发 现 优 质 书 籍"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <TextView
+        style="@style/tv_normal"
+        android:layout_below="@id/tv_tip"
+        android:layout_centerHorizontal="true"
+        android:text="V1.0"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

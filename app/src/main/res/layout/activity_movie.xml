@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/layout_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/tv_movie_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/test_movie"/>
+
+            <TextView
+                style="@style/tv_normal"
+                android:layout_marginTop="10dp"
+                android:text="从你的全世界走过"
+                android:textColor="@color/pub_black"
+                android:textSize="22sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_grade_audience_tag"
+                        style="@style/tv_normal"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="观众评分"/>
+
+                    <TextView
+                        android:id="@+id/tv_grade_audience"
+                        style="@style/tv_normal"
+                        android:layout_width="match_parent"
+                        android:layout_below="@id/tv_grade_audience_tag"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="8.7"
+                        android:textColor="@color/btn_yellow"
+                        android:textSize="22sp"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_grade_major_tag"
+                        style="@style/tv_normal"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="专业评分"/>
+
+                    <TextView
+                        android:id="@+id/tv_grade_major"
+                        style="@style/tv_normal"
+                        android:layout_width="match_parent"
+                        android:layout_below="@id/tv_grade_major_tag"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="8.7"
+                        android:textColor="@color/btn_yellow"
+                        android:textSize="22sp"
+                        />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_duration_tag"
+                        style="@style/tv_normal"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="时长"/>
+
+                    <TextView
+                        android:id="@+id/tv_duration"
+                        style="@style/tv_normal"
+                        android:layout_width="match_parent"
+                        android:layout_below="@id/tv_duration_tag"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="113分"
+                        android:textColor="@color/pub_black"
+                        android:textSize="18sp"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_content"
+                style="@style/tv_content"
+                android:text="  张一白的电影很好看，就像精致的情歌MV，最美的景色最靓的演员，讲的都是人人最想回去却注定回不去的青春年少，那些记忆里的光影，初夏的阳光总在头顶新透绿的树叶之间闪耀，男孩子的白校服，女孩子的蓝校群，轱辘乱转的自行车和拿在手里不吃也甜透心的牛奶雪糕……"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_round_blue"
+        android:text="流"
+        android:textColor="@color/white"
+        android:textSize="22sp"/>
+
+
+</RelativeLayout>

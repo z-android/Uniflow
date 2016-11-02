@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+
+    <style name="tv_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/tv_grey</item>
+    </style>
+
+    <style name="tv_book_tag" parent="tv_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="tv_book_content" parent="tv_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.2</item>
+        <item name="android:lineSpacingExtra">10dp</item>
+        <item name="android:textColor">@color/all_black</item>
+        <item name="android:textScaleX">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+
+    <style name="tv_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/tv_grey</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="ll_item_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+</resources>

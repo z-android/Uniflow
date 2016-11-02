@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_blue"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="20dp"
+        android:drawableTop="@drawable/share_qrcode"
+        android:gravity="center"
+        android:text="@string/share" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+
+        <TextView
+            android:id="@+id/txt_qq_share"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/icon_share_qq"
+            android:gravity="center"
+            android:text="@string/qq_friends" />
+
+        <TextView
+            android:id="@+id/txt_qzone_share"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/icon_share_qzone"
+            android:gravity="center"
+            android:text="@string/qq_zone" />
+
+        <TextView
+            android:id="@+id/txt_wx_circle"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/icon_share_wxf"
+            android:gravity="center"
+            android:text="@string/friends" />
+
+        <TextView
+            android:id="@+id/txt_wx_friends"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/icon_share_wx"
+            android:gravity="center"
+            android:text="@string/wx_friends" />
+
+    </LinearLayout>
+
+</LinearLayout>

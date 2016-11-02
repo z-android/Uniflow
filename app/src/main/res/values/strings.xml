@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">单流</string>
+    <string name="action_settings">Settings</string>
+    <string name="bk_from">来自：%s</string>
+    <string name="bk_price">价格：%s</string>
+    <string name="bk_grade">评分：%s</string>
+    <string name="bk_author">作者：%s</string>
+    <string name="bk_name">书名:《%s》</string>
+    <string name="bk_content_count">字数：%s</string>
+    <string name="bk_publish_date">出版：%s</string>
+
+
+    <string name="qq_friends">QQ好友</string>
+    <string name="qq_zone">QQ空间</string>
+    <string name="share">扫描二维码下载或分享</string>
+    <string name="friends">朋友圈</string>
+    <string name="wx_friends">微信好友</string>
+    <string name="share_title">朋友都在用</string>
+    <string name="share_content">知识运营商</string>
+
+
+</resources>

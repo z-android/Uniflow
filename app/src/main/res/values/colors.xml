@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="search_delivery_bg">#10000000</color>
+    <color name="header_bg_color">#008dfe</color>
+    <color name="blank_space">#ececec</color>
+    <color name="blank_space_dark">#eeeeee</color>
+    <color name="blank_dark">#efefef</color>
+    <color name="tab_layout_bg">#f7f7f7</color>
+    <color name="delivery_state">#aeaeae</color>
+
+    <color name="edit_text_cursor">#006ef0</color>
+
+    <color name="integral_red">#ff6274</color>
+
+    <color name="tab_selector_selected">#ff5252</color>
+    <color name="tab_selector_unselected">#585858</color>
+    <color name="pub_black">#595757</color>
+    <color name="red">#f00</color>
+    <color name="red_pressed">#CD5C5C</color>
+    <color name="white">#ffffff</color>
+
+    <color name="status_unpicked">#28e193</color>
+    <color name="status_picked">#595757</color>
+    <color name="status_time_out">#ff6375</color>
+    <color name="status_recycle">#ffc33f</color>
+    <color name="status_other">#52b1ff</color>
+
+    <!-- 30%透明度-->
+    <color name="thirty_percent_transparent">#4d000000</color>
+    <!-- 15%透明度-->
+    <color name="fifteen_percent_transparent">#26ffffff</color>
+    <!-- 80%white-->
+    <color name="eighty_percent_transparent_white">#ccffffff</color>
+    <!-- 60%black-->
+    <color name="sixty_percent_transparent_black">#99000000</color>
+
+
+    <color name="box_green">#4ed188</color>
+    <color name="txt_green_pressed">#91edc1</color>
+    <color name="btn_green">#38cd84</color>
+    <color name="btn_green_pressed">#FF1E975C</color>
+    <color name="tv_grey">#7b7b7b</color>
+    <color name="btn_blue">#008dfe</color>
+    <color name="tv_blue">#008cff</color>
+    <color name="btn_blue_pressed">#2b5697</color>
+    <color name="btn_blue_enable_false">#78c0f9</color>
+
+    <color name="btn_red">#ec7079</color>
+    <color name="btn_red_pressed">#FFC56363</color>
+    <color name="btn_yellow">#f5c01b</color>
+    <color name="tv_yellow">#ffc340</color>
+    <color name="btn_yellow_pressed">#FF997118</color>
+    <color name="green">#6fba2c</color>
+
+    <color name="btn_quit">#fe2f72</color>
+    <color name="btn_quit_pressed">#EA0A53</color>
+
+    <color name="life_group_bg_color">#f0f0f0</color>
+
+    <color name="grey">#9fa0a0</color>
+    <color name="text_light">#C0C0C0</color>
+    <color name="text_light_forty_transparent">#66C0C0C0</color>
+
+    <color name="radio_bg">#eeeeee</color>
+
+    <color name="switch_button_unchecked">#cdcdcd</color>
+
+    <color name="bg_transparent">#aaffffff</color>
+    <color name="box_grey">#cecece</color>
+    <color name="text_grey">#808080</color>
+    <color name="text_999_color">#999999</color>
+    <color name="text_phone_number">#38cd84</color>
+    <color name="call_delivery_btn_green">#38cd84</color>
+    <!-- 80%white-->
+    <color name="white_eighty">#ccffffff</color>
+
+    <color name="dark_orange">#FF8C00</color>
+    <color name="dark_orange_pressed">#de7100</color>
+    <color name="edit_text_bg">#F5F5F5</color>
+    <color name="pick_code">#008cff</color>
+
+    <color name="radio_button_text">#008bfe</color>
+    <color name="dialog_text">#ff666666</color>
+    <color name="dialog_bt_text">#ffffffff</color>
+    <color name="line_color">#f0efed</color>
+    <color name="general_red_color">#f06456</color>
+
+    <drawable name="general_red_color">#f06456</drawable>
+
+    <color name="general_red_select_color">#ca2a20</color>
+
+    <drawable name="general_red_select_color">#ca2a20</drawable>
+
+    <color name="general_orange_color">#f0b637</color>
+
+    <drawable name="general_orange_color">#f0b637</drawable>
+
+    <color name="general_orange_select_color">#dfa628</color>
+
+    <drawable name="general_orange_select_color">#dfa628</drawable>
+
+    <color name="general_blue_color">#4fc7d8</color>
+
+    <drawable name="general_blue_color">#4fc7d8</drawable>
+
+    <color name="general_blue_select_color">#16b0c7</color>
+
+    <drawable name="general_blue_select_color">#16b0c7</drawable>
+    <color name="pay_success_text_color">#c0de9e</color>
+    <color name="pay_fail_text_color">#f6aca7</color>
+
+    <color name="general_green_color">#8ec640</color>
+
+    <drawable name="general_green_color">#8ec640</drawable>
+
+    <color name="general_green_select_color">#86bb3c</color>
+
+    <drawable name="general_green_select_color">#86bb3c</drawable>
+
+    <color name="general_gray_color">#bbbbbb</color>
+
+    <drawable name="general_gray_color">#bbbbbb</drawable>
+
+    <color name="general_gray_select_color">#999999</color>
+
+
+    <drawable name="general_gray_select_color">#999999</drawable>
+    <color name="recv_delivery_color">#60cb71</color>
+    <color name="logistics_border_color">#d0b3dafa</color>
+
+    <color name="text_444_color">#444444</color>
+    <color name="text_666_color">#666666</color>
+    <color name="text_888_color">#888888</color>
+    <color name="text_bbb_color">#bbbbbb</color>
+
+
+    <!-- 门禁 -->
+    <drawable name="opendoor_normal_color">#43d8a4</drawable>
+    <drawable name="opendoor_pressed_color">#12a975</drawable>
+    <color name="open_ing_color">#a0a0a0</color>
+    <color name="open_success_color">#2fdca0</color>
+
+    <!-- 小区搜索 -->
+    <color name="community_name_color">#ff343434</color>
+    <color name="community_address_color">#ffbbbbbb</color>
+
+    <!-- 二维码扫描颜色值 -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#80ffffff</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+
+
+    <color name="topic_title_color">#444444</color>
+    <color name="topic_content_color">#888888</color>
+    <color name="item_gray">#FFF0F0F0</color>
+    <color name="general_new_blue_color">#68b5f5</color>
+
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+
+
+    <!-- 应用主题色 -->
+    <color name="maincolor">#21b38a</color>
+    <color name="maincolordark">#129872</color>
+    <color name="sidebar_letter_normal">#202020</color>
+    <color name="sidebar_letter_pressed">#21b38a</color>
+    <!-- 白色 -->
+    <color name="all_white">#ffffff</color>
+    <!-- 黑色 -->
+    <color name="all_black">#000000</color>
+    <!-- 浅灰 -->
+    <color name="lightgrey">#D6D6D6</color>
+    <color name="parent_dialog_bg">#EDEDED</color>
+    <color name="startcolor">#21b38a</color>
+    <color name="tab_text_select">#2594fe</color>
+    <color name="tab_text_unselect">#818181</color>
+    <color name="tab_indicator">#008cff</color>
+    <color name="tab_indicator_pressed">#0051ff</color>
+    <color name="notification_bg">#e6eef4</color>
+    <color name="box_normal">#7dc2fb</color>
+    <color name="box_selected">#4ed188</color>
+    <color name="bt_text">#5ab0f7</color>
+    <color name="btn_bg">#5ab0f7</color>
+    <color name="btn_bg_pressed">#5a91f7</color>
+    <color name="key_bottom_bg">#d2d5db</color>
+    <color name="key_bottom_bg_pressed">#d6d2db</color>
+    <color name="key_board_header_bg">#f9f9f9</color>
+    <color name="service_txt_color">#ff2d73</color>
+</resources>

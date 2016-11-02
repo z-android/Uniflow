@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingRight="10dp">
+
+
+    <prin.open.uniflow.helper.customview.LoaderTextView
+        android:id="@+id/tv_type"
+        style="@style/tv_normal"
+        android:layout_centerInParent="true"
+        android:textColor="@color/pub_black"
+        android:textSize="20sp"
+        />
+
+
+    <ImageView
+        android:id="@+id/civ_icon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/selection"
+        />
+
+    <TextView
+        android:id="@+id/tv_menu"
+        style="@style/tv_normal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/civ_icon"
+        android:textColor="@color/pub_black"
+        android:textSize="18sp"/>
+
+
+    <!--阅读信息-->
+    <TextView
+        android:id="@+id/tv_issues"
+        style="@style/tv_normal"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/pub_black"
+        android:textSize="14sp"/>
+
+    <prin.open.uniflow.helper.customview.LoaderTextView
+        android:id="@+id/tv_read_times"
+        style="@style/tv_normal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/tv_issues"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

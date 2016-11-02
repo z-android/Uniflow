@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:pressureview="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blank_space"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/layout_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/blank_space"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_random_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <prin.open.uniflow.helper.customview.FlowButton
+        android:id="@+id/bt_flow"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_round_blue"
+        android:gravity="center"
+        android:text="流"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:paddingTop="8dp"/>
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="62dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:paddingTop="8dp"-->
+    <!--&gt;-->
+
+    <!--<prin.open.uniflow.helper.customview.FlowButton-->
+    <!--android:id="@+id/bt_flow"-->
+    <!--android:layout_width="58dp"-->
+    <!--android:layout_height="58dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:background="@drawable/bg_round_blue"-->
+    <!--android:gravity="center"-->
+    <!--android:text="流"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="22sp"/>-->
+
+    <!--<prin.open.uniflow.helper.customview.FlowButton-->
+    <!--android:id="@+id/bt_reset"-->
+    <!--android:layout_width="58dp"-->
+    <!--android:layout_height="58dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:background="@drawable/bg_round_blue"-->
+    <!--android:gravity="center"-->
+    <!--android:text="reset"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="22sp"-->
+    <!--android:visibility="gone"/>-->
+
+
+    <!--<prin.open.uniflow.helper.customview.FlowButton-->
+    <!--android:id="@+id/bt_share"-->
+    <!--android:layout_width="56dp"-->
+    <!--android:layout_height="56dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--pressureview:colors="@color/btn_green"-->
+    <!--android:gravity="center"-->
+    <!--android:text="分享"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="22sp"-->
+    <!--android:visibility="gone"/>-->
+
+    <!--<prin.open.uniflow.helper.customview.FlowButton-->
+    <!--android:id="@+id/bt_content"-->
+    <!--android:layout_width="56dp"-->
+    <!--android:layout_height="56dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--pressureview:colors="@color/btn_red"-->
+    <!--android:gravity="center"-->
+    <!--android:text="内容"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="22sp"-->
+    <!--android:visibility="gone"/>-->
+    <!--</RelativeLayout>-->
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<declare-styleable name="KeyBoardView">-->
+        <!--<attr name="keyHSpace" format="dimension"/>-->
+        <!--<attr name="keyVSpace" format="dimension"/>-->
+        <!--<attr name="keyWidth" format="dimension"/>-->
+        <!--<attr name="keyTextSize" format="dimension"/>-->
+        <!--<attr name="keyTextColor" format="reference|color"/>-->
+        <!--<attr name="keyBackground" format="reference|color"/>-->
+        <!--<attr name="keyboardBackground" format="reference|color"/>-->
+    <!--</declare-styleable>-->
+    <declare-styleable name="pressureview">
+        <attr name="colors" format="color" />
+        <attr name="bezierradio" format="float" />
+        <attr name="animduration" format="integer" />
+        <attr name="scale_ranger" format="float" />
+        <attr name="bezierradion_range" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="loader_view">
+        <attr name="width_weight" format="float" />
+        <attr name="height_weight" format="float" />
+        <attr name="use_gradient" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean"/>
+        <attr name="civ_fill_color" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="SwipeLayout">
+        <attr name="drag_edge" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0"/>
+            <enum name="pull_out" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="BoxTypeView">
+        <attr name="boxName" format="string"/>
+        <attr name="boxSpec" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ParticleView">
+        <attr name="pv_host_text" format="string"></attr>
+        <attr name="pv_host_text_size" format="dimension"></attr>
+        <attr name="pv_particle_text" format="string"></attr>
+        <attr name="pv_particle_text_size" format="dimension"></attr>
+        <attr name="pv_text_color" format="color"></attr>
+        <attr name="pv_background_color" format="color"></attr>
+        <attr name="pv_text_anim_time" format="integer"></attr>
+        <attr name="pv_spread_anim_time" format="integer"></attr>
+        <attr name="pv_host_text_anim_time" format="integer"></attr>
+    </declare-styleable>
+
+</resources>

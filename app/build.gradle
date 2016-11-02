@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "prin.open.uniflow"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            multiDexEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.romainpiel.shimmer:library:1.4.0@aar'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+    compile 'cn.bmob.android:http-legacy:1.0'
+    //3.5.0：请务必查看下面注释[1]
+    compile 'cn.bmob.android:bmob-sdk:3.5.0'
+    //bmob-push：Bmob的推送包
+    compile 'cn.bmob.android:bmob-push:0.8'
+    compile files('libs/glide-3.7.0.jar')
+    compile 'com.android.support:multidex:1.0.1'
+    compile files('libs/MobCommons-2016.0426.1819.jar')
+    compile 'tyrantgit:explosionfield:1.0.1'
+    compile 'com.afollestad.material-dialogs:core:0.9.0.2'
+}
